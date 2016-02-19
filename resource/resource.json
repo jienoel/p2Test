@@ -1,0 +1,31 @@
+{
+	"resources": [
+		{
+			"name": "bgImage",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egretIcon",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "description",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name":"desk",
+			"type":"image",
+			"url":"desk.png"
+		},
+		{"name":"box","type":"image","url":"box.png"}
+	],
+	"groups": [
+		{
+			"name": "preload",
+			"keys": "bgImage,egretIcon,desk,box"
+		}
+	]
+}
